@@ -6,5 +6,21 @@
 </head>
 <body>
 This is just the beginning...
+Your userid is <span class="user"></span>. 
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+	$.ajax({
+		type: "GET",
+		url: "http://localhost:8080/springrest/api/v1/users/user"
+	})
+	.done(function(data) {
+		$(".user").text(data);
+	})
+	.fail(function() {
+		$(".user").text("...failed...");
+	});
+	
+</script>
 </body>
 </html>
