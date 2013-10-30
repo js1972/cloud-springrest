@@ -13,6 +13,9 @@ import org.springframework.stereotype.Service;
  * 
  * @author Matthias Steiner
  * @version 1.0.0
+ * 
+ * See SCN Blog: http://scn.sap.com/community/developer-center/cloud-platform/blog/2012/12/04/teched-2012-cd208-chapter-16-getting-started
+ * 
  */
 @Service("userService")
 @Path("/users")
