@@ -1,6 +1,9 @@
 SAP HANA Cloud Samples - springrest
 ========
 
+This is my own copy that I use for testing... the below is from the original sap sample.
+
+
 This sample demonstrates how-to expose services as a public RESTful API using [Apache CFX](http://cxf.apache.org/) and the [Spring framework](http://www.springsource.org/spring-framework).
 
 Quick start
